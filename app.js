@@ -10,6 +10,7 @@ const hpp = require('hpp');
 const RedisStore = require('connect-redis')(session);
 const redis = require('redis')
 require('dotenv').config();
+console.log("test");
 
 const pageRouter = require('./routes/page');
 const authRouter = require('./routes/auth');
